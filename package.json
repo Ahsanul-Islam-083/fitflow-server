@@ -1,0 +1,23 @@
+{
+  "name": "fitflow-server",
+  "version": "1.0.0",
+  "description": "Backend REST API server for the GestorFitness fitness marketplace platform",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["fitness", "marketplace", "express", "mongodb", "api"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jose-cjs": "^6.2.3",
+    "mongodb": "^7.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
