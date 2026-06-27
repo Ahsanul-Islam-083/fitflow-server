@@ -1,7 +1,7 @@
 {
   "name": "fitflow-server",
   "version": "1.0.0",
-  "description": "Backend REST API server for the GestorFitness fitness marketplace platform",
+  "description": "Backend server",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
